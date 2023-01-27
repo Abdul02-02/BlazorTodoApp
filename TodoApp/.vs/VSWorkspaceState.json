@@ -5,6 +5,6 @@
     "\\TodoApp\\Models",
     "\\TodoApp\\Pages"
   ],
-  "SelectedNode": "\\TodoApp\\Pages\\Index.razor",
+  "SelectedNode": "\\TodoApp\\Models\\Todo.cs",
   "PreviewInSolutionExplorer": false
 }
