@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TodoApp",
+    "\\TodoApp\\TodoApp",
+    "\\TodoApp\\TodoApp\\Models",
+    "\\TodoApp\\TodoApp\\Pages"
+  ],
+  "SelectedNode": "\\TodoApp\\TodoApp\\Pages\\Index.razor",
+  "PreviewInSolutionExplorer": false
+}

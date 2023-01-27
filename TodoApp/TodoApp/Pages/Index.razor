@@ -1,0 +1,47 @@
+﻿@page "/"
+@using TodoApp.Models
+
+<div class="todo-container">
+    <h1>To-Do App</h1>
+    <div class="todo-input">
+        <input type="text" @bind="todoInput" />
+        <button @onclick="AddTodo">Add</button>
+    </div>
+
+    @for (int i = 0; i < todos.Count; i++)
+    {
+        var index = i;
+        var todo = todos[i];
+        <div class="todo-item">
+            <div 
+            class="@(todo.isCoblete ? "todo-item__text complete" : "todo-item__text")"
+             @onclick="@(() => MarkAsComplete(todo))">
+                @todo.Title
+            </div>
+            <div class="todo-item__close" @onclick="@(() => RemoveTodo(index))">&times;</div>
+        </div>
+    }
+</div>
+
+@code {
+    public string? todoInput { get; set; }
+    public List<Todo> todos = new List<Todo>();
+
+    public void AddTodo()
+    {
+        var todo = new Todo();
+        todo.Title = todoInput;
+        todos.Add(todo);
+        todoInput = "";
+    }
+
+    public void RemoveTodo(int index)
+    {
+        todos.RemoveAt(index);
+    }
+
+    public void MarkAsComplete(Todo todo)
+    {
+        todo.isCoblete = !todo.isCoblete;
+    }
+}

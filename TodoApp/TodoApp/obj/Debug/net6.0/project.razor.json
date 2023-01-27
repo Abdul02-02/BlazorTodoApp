@@ -1,0 +1,76 @@
+{
+  "SerializedFilePath": "c:\\Users\\Abdul\\source\\repos\\BlazorTodoApp\\TodoApp\\TodoApp\\obj\\Debug\\net6.0\\project.razor.json",
+  "FilePath": "c:\\Users\\Abdul\\source\\repos\\BlazorTodoApp\\TodoApp\\TodoApp\\TodoApp.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "6.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1000
+  },
+  "RootNamespace": "TodoApp",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\Abdul\\source\\repos\\BlazorTodoApp\\TodoApp\\TodoApp\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Abdul\\source\\repos\\BlazorTodoApp\\TodoApp\\TodoApp\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Abdul\\source\\repos\\BlazorTodoApp\\TodoApp\\TodoApp\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Abdul\\source\\repos\\BlazorTodoApp\\TodoApp\\TodoApp\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Abdul\\source\\repos\\BlazorTodoApp\\TodoApp\\TodoApp\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Abdul\\source\\repos\\BlazorTodoApp\\TodoApp\\TodoApp\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Abdul\\source\\repos\\BlazorTodoApp\\TodoApp\\TodoApp\\Pages\\_Layout.cshtml",
+      "TargetPath": "Pages\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Abdul\\source\\repos\\BlazorTodoApp\\TodoApp\\TodoApp\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Abdul\\source\\repos\\BlazorTodoApp\\TodoApp\\TodoApp\\Pages\\_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Abdul\\source\\repos\\BlazorTodoApp\\TodoApp\\TodoApp\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Abdul\\source\\repos\\BlazorTodoApp\\TodoApp\\TodoApp\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    }
+  ],
+  "SerializationFormat": "0.3"
+}
