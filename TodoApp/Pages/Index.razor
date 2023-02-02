@@ -14,7 +14,7 @@
         var todo = todos[i];
         <div class="todo-item">
             <div 
-            class="@(todo.isCoblete ? "todo-item__text complete" : "todo-item__text")"
+            class="@(todo.IsComplete ? "todo-item__text complete" : "todo-item__text")"
              @onclick="@(() => MarkAsComplete(todo))">
                 @todo.Title
             </div>
@@ -42,6 +42,6 @@
 
     public void MarkAsComplete(Todo todo)
     {
-        todo.isCoblete = !todo.isCoblete;
+        todo.IsComplete = !todo.IsComplete;
     }
 }
